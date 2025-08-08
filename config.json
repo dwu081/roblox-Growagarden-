@@ -1,0 +1,34 @@
+{
+  "cron_interval": 10,
+  "seed_names": ["Sunflower", "Carrot", "Potato", "Corn", "Tomato"],
+  "tesseract_cmd": "/opt/homebrew/bin/tesseract",
+  "seed_boxes": [
+    [100, 200, 300, 240],
+    [100, 260, 300, 300],
+    [100, 320, 300, 360],
+    [100, 380, 300, 420],
+    [100, 440, 300, 480]
+  ],
+  "stock_boxes": [
+    [320, 200, 400, 240],
+    [320, 260, 400, 300],
+    [320, 320, 400, 360],
+    [320, 380, 400, 420],
+    [320, 440, 400, 480]
+  ],
+  "buy_buttons": [
+    [420, 220],
+    [420, 280],
+    [420, 340],
+    [420, 400],
+    [420, 460]
+  ],
+  "store_hotkey": "f1",
+  "close_hotkey": "esc",
+  "ocr_language": "eng",
+  "click_delay": 0.5,
+  "screenshot_delay": 2.0,
+  "purchase_delay": 1.0,
+  "failsafe": true,
+  "debug_mode": false
+}
